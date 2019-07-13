@@ -115,10 +115,10 @@ lazy val size : Approximate[Long] = size(approximationWidth = 0.05)
     Logger.getLogger("org").setLevel(Level.OFF)
     Logger.getLogger("akka").setLevel(Level.OFF)
 
-    val consumer_key = "r0sywzCHyluFQz3JVQSYOmwAj"
-    val consumer_secret = "Pe8mOsVeqTFL4ATQTsrrDOocQBgK1oE7fl2d0oly2n7cDlIiKG"
-    val access_token = "1378932762-1CZ2uhnQE5cCJdG4VK5IB9hrEAgn31ikcTFYnun"
-    val access_token_secret = "0hPW6XfaitGNf5wJYtZN4VBJvULh9Oio3HJKtpzcqNJBz"
+    val consumer_key = "YOUR_KEY"
+    val consumer_secret = "YOUR_KEY"
+    val access_token = "YOUR_KEY"
+    val access_token_secret = "YOUR_KEY"
     System.setProperty("twitter4j.oauth.consumerKey", consumer_key)
     System.setProperty("twitter4j.oauth.consumerSecret", consumer_secret)
     System.setProperty("twitter4j.oauth.accessToken", access_token)
