@@ -20,10 +20,10 @@ object TwitterStreaming {
     Logger.getLogger("akka").setLevel(Level.OFF)
 
     
-    System.setProperty("twitter4j.oauth.consumerKey", "r0sywzCHyluFQz3JVQSYOmwAj")
-    System.setProperty("twitter4j.oauth.consumerSecret", "Pe8mOsVeqTFL4ATQTsrrDOocQBgK1oE7fl2d0oly2n7cDlIiKG")
-    System.setProperty("twitter4j.oauth.accessToken", "1378932762-1CZ2uhnQE5cCJdG4VK5IB9hrEAgn31ikcTFYnun")
-    System.setProperty("twitter4j.oauth.accessTokenSecret", "0hPW6XfaitGNf5wJYtZN4VBJvULh9Oio3HJKtpzcqNJBz")
+    System.setProperty("twitter4j.oauth.consumerKey", "YOUR_KEY")
+    System.setProperty("twitter4j.oauth.consumerSecret", "YOUR_KEY")
+    System.setProperty("twitter4j.oauth.accessToken", "YOUR_KEY")
+    System.setProperty("twitter4j.oauth.accessTokenSecret", "YOUR_KEY")
 
     val ssc = new StreamingContext(sc, Seconds(10))
     val tweets = TwitterUtils.createStream(ssc, None, Array("Data"))
